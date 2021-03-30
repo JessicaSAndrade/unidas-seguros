@@ -1,0 +1,235 @@
+:root {
+    --red: #e50914;
+    --brack: #141414;
+}
+
+.wrapper {
+    background-image: url("../../assets/img/01-1.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    span {
+        margin-top: 20%;
+        font-family: "Roboto";
+        font-size: 50px;
+        letter-spacing: 6px;
+        color: #000;
+    }
+}
+
+.bota_plus_for_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.botao {
+    background-color: rgba(215, 215, 215, 0.5);
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #4c4747;
+    border-radius: 6px;
+}
+
+.botao:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+// Grid 2x2
+.grid-container-2-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 40%;
+}
+
+// Grid 2x2
+.grid-container-2-2-customized {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 40%;
+}
+
+// Grid 5x5
+.grid-container-3-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    // height: 20%;
+    align-items: center;
+}
+
+// Grid 5x5
+.grid-container-5-5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 20%;
+    align-items: center;
+
+    img {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.image-enterprise-left {
+    width: 50vw;
+
+    img {
+        padding: 10%;
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+    }
+}
+
+.text-enterprise {
+    width: 50vw;
+    padding: 16% 10%;
+    padding: 16% 10%;
+    font-size: 16px;
+    line-height: 2;
+
+    p {
+        white-space: normal;
+    }
+}
+
+.planos-de-saude {
+    padding-bottom: 4%;
+    h1 {
+        padding-bottom: 2%;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 34px;
+    }
+}
+
+.contatos {
+    background-color: #ddd;
+
+    h1 {
+        font-weight: 700;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        padding: 0% 16%;
+        line-height: 39px;
+    }
+
+    p {
+        white-space: normal;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+}
+
+.contatos-informacoes {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6% 16%;
+}
+
+.tipos-planos-saude {
+    height: 50vh;
+
+    h1 {
+        font-size: xx-large;
+        padding: 2% 0% 4% 0%;
+        color: #fff;
+        justify-content: center;
+        display: flex;
+    }
+
+    img {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    span {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        justify-content: center;
+        letter-spacing: 2px;
+        display: flex;
+    }
+}
+
+// Tipos de planos
+.parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 100%)), url("../../assets/img/familia.jpg");
+    height: 100%;
+
+    /* Para o efeito de scrool no paralax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.consultoria-form {
+    padding: 0% 10%;
+    margin-top: 2%;
+
+    .consultoria-form-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+.title-card {
+    padding: 0% 10%;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    font-style: normal;
+    line-height: 29px;
+}
+
+.footer {
+    background-color: #ddd;
+    .grid-container-2-2 {
+        height: 20%;
+    }
+
+    .titulo {
+        white-space: normal;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .sub-titulo {
+        font-size: 10px;
+        line-height: 5px;
+    }
+}
+
+.made-by {
+    justify-content: center;
+    font-size: 10px;
+    display: flex;
+}
+
